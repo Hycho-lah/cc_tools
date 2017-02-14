@@ -8,6 +8,7 @@ Created for the class Programming for Game Designers
 #Note that the initializer takes 2 arguments:
 #  name
 #  launch_year
+
 class Platform:
     def __init__(self, name="Unknown", launch_year=0):
         self.name = name
@@ -45,4 +46,3 @@ def print_game_library(game_library_data):
         print("       Name = "+game.platform.name)
         print("       Launch Year = "+str(game.platform.launch_year))
         game_count += 1
-
