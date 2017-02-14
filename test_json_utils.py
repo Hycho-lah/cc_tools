@@ -9,15 +9,15 @@ def make_game_library_from_json(json_data):
     games = json_data["games"]
 
     #Initialize a new GameLibrary
-    game_library = json_data.GameLibrary()
+    game_library = test_data.GameLibrary()
 
     #Loop through the json_data
     for games in json_data:
         #Get data from current game in games list
+        platform = games["platform"]
         name = platform["name"]
         launch_year = platform["launch_year"]
         platform = test_data.Platform(name, launch_year)
-        # or platform = games["platform"]???
         title = games["title"]
         year = games["year"]
         #Create a new Game object from the json_data by reading
