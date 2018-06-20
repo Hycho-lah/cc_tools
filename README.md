@@ -3,7 +3,7 @@ Python tools for reading and writing Chip's Challenge DAT files. Created for the
 Chip's Challenge (CC) data is termed as CCData. 
 Please see images for level designs and level editor.
 
-# Code
+## Code
 1. cc_data.py - Data structures for manipulating CCdata 
 2. cc_json_utils.py - Load JSON file and save as DAT file 
 3. cc_dat_utils.py - Load CCData and save as DAT file
